@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/kamilsaitov/Library/Android/sdk/platforms/android-25/android.jar"
+        revision="25.0.2"
+        sha1="712a0312fe844a21a1b3812fa960c363a1578984">
+        <dex dex="/Users/kamilsaitov/LymeDetector/LymeDetector/app/build/intermediates/transforms/preJackRuntimeLibraries/debug/jars/8000/40/android-486ae62af0a2f8f1a91ebf3ea57e09571fd2b10a.jar" />
+    </item>
+    <item
+        jar="/Users/kamilsaitov/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/Users/kamilsaitov/LymeDetector/LymeDetector/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/support-annotations-25.3.1-8569654735680b5f100abbac67d76516fab9a6be.jar" />
+    </item>
+    <item
+        jar="/Users/kamilsaitov/.android/build-cache/f031084c13ac70ea366343041695de821ac984e4/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/Users/kamilsaitov/LymeDetector/LymeDetector/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-f9ca2a5e69de1dc516d778b4d42f201b32986dbb.jar" />
+    </item>
+    <item
+        jar="/Users/kamilsaitov/.android/build-cache/e88216b600b18ab01dfa293861729996d2055ef4/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="49f9f18de27dbb1401ce111f9627bcaada926e51">
+        <dex dex="/Users/kamilsaitov/LymeDetector/LymeDetector/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-9f4b631c43f3c05ee4280bdd78f7b7e20c34d1f4.jar" />
+    </item>
+    <item
+        jar="/Users/kamilsaitov/.android/build-cache/160d47524dd576b3b2a2a951f49d211e3fe6ba9a/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/Users/kamilsaitov/LymeDetector/LymeDetector/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-07704c82dc8d02befb91d2e4ceeff653997e3082.jar" />
+    </item>
+    <item
+        jar="/Users/kamilsaitov/.android/build-cache/09b87cec81f050665945b8c7cebbde2490946a8d/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/Users/kamilsaitov/LymeDetector/LymeDetector/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-61ec32b2dae23b0f1ac3f648d816373848bdd8ea.jar" />
+    </item>
+    <item
+        jar="/Users/kamilsaitov/.android/build-cache/29598d05c703f0b5e9204950da43d90d284f370a/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="30a4938ea5235ccf532b3e9f04200e68547e36ad">
+        <dex dex="/Users/kamilsaitov/LymeDetector/LymeDetector/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-99772d1c3118658c0ab2bee059e2970b7db15439.jar" />
+    </item>
+    <item
+        jar="/Users/kamilsaitov/.android/build-cache/2406bfc6a7b75cee9164f4deb9d803751ce64da5/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/Users/kamilsaitov/LymeDetector/LymeDetector/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-5edd6e993172c233b7f84b2db32c3cad30bc8c5a.jar" />
+    </item>
+    <item
+        jar="/Users/kamilsaitov/.android/build-cache/a84cb1e56f45780f50d7d14447936243b23346dd/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/kamilsaitov/LymeDetector/LymeDetector/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-160fe4264fef98641dc5e8aede6978921c3128e3.jar" />
+    </item>
+    <item
+        jar="/Users/kamilsaitov/.android/build-cache/86ee01632b02625e40cfd2ed0620a4f966d941d0/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/Users/kamilsaitov/LymeDetector/LymeDetector/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-3c529bf9a672ff057a4cd4e015c437812d93ff82.jar" />
+    </item>
+    <item
+        jar="/Users/kamilsaitov/Library/Android/sdk/platforms/android-25/optional/org.apache.http.legacy.jar"
+        revision="25.0.2"
+        sha1="5f0541a4298daa0590b22cfbde43f85e2a675545">
+        <dex dex="/Users/kamilsaitov/LymeDetector/LymeDetector/app/build/intermediates/transforms/preJackRuntimeLibraries/debug/jars/8000/40/org.apache.http.legacy-c0383afb6016c87435259a9e66499ccebd2b0c2b.jar" />
+    </item>
+    <item
+        jar="/Users/kamilsaitov/.android/build-cache/b61d5e9bb5066e319414c79da0668eda73a6b491/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/kamilsaitov/LymeDetector/LymeDetector/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-5884e41070ee0fcbc6ee19dc6662e6c0cd19068d.jar" />
+    </item>
+    <item
+        jar="/Users/kamilsaitov/.android/build-cache/735456f4bd6c74569615ab92a13d0d83d5672473/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="7e33b895bce39ad22757ea8a41a3674ff19b9907">
+        <dex dex="/Users/kamilsaitov/LymeDetector/LymeDetector/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-c1db86c2ce0cc5020112754290d20fdeb0dd350c.jar" />
+    </item>
+    <item
+        jar="/Users/kamilsaitov/.android/build-cache/8818a33801b43e1a8cf067c1d39ec62fdcb6735f/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/Users/kamilsaitov/LymeDetector/LymeDetector/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-dbbc1ff11de0ffda2923f13afc484f9c75725933.jar" />
+    </item>
+    <item
+        jar="/Users/kamilsaitov/.android/build-cache/3f373bbd8840781767e20a41566188c069b93731/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/kamilsaitov/LymeDetector/LymeDetector/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-101a5488c24a1910f11e1b4287ccc54de1bd6519.jar" />
+    </item>
+
+</items>
