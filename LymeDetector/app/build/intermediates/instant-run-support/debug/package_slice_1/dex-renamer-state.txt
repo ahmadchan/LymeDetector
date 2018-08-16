@@ -1,4 +1,0 @@
-#Sat Jun 30 14:47:33 MSK 2018
-base.0=/Users/kamilsaitov/AndroidStudioProjects/A_Guide_to_Running_Tensorflow_Models_on_Android/mnistandroid/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1
-renamed.0=classes.dex
-file.0=/Users/kamilsaitov/AndroidStudioProjects/A_Guide_to_Running_Tensorflow_Models_on_Android/mnistandroid/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex

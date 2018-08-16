@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <input id="image-selector" type="file">
+    <button id="predict-button">Predict</button>
+    <p style="font-weight:bold">Predictions</p>
+    <p>Lyme: <span id="lyme-prediction"></span></p>
+    <p>Not Lime: <span id="not-lyme-prediction"></span></p>
+    <img id="selected-image" src=""/>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script>
+        let base64Image;
+        $("#image-selector").change(function() {
+            let reader = new FileReader();
+            reader.onload = function(e) {
+                let dataURL = reader.result;
+                $('#selected-image').attr("src", dataURL);
+                base64Image = dataURL.replace("data:image/jpg;base64,","");
+                console.log(base64Image);
+            }
+            reader.readAsDataURL($("#image-selector")[0].files[0]);
+            $("#lyme-prediction").text("")
+            $("#not-lyme-prediction").text("")
+        });
+        $("#predict-button").click(function(event){
+            let message = {
+                image: base64Image
+            }
+            console.log(message);
+            $.post("http://localhost:5000/predict", JSON.stringify(message), function(response){
+                $("#lyme-prediction").text(response.prediction.lyme);
+                $("#not-lyme-prediction").text(response.prediction.not_lyme);
+                console.log(response);
+            });
+        });
+    </script>
+</body>
+</html>
