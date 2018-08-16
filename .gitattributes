@@ -3,3 +3,4 @@
 / filter=lfs diff=lfs merge=lfs -text
 *.ir.ap_ filter=lfs diff=lfs merge=lfs -text
 *.h5 filter=lfs diff=lfs merge=lfs -text
+*internal.so filter=lfs diff=lfs merge=lfs -text
