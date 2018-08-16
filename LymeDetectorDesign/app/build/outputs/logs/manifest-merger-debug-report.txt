@@ -1,0 +1,177 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/AndroidManifest.xml:2:1-43:12
+	package
+		ADDED from /Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/AndroidManifest.xml:4:5-39
+		INJECTED from /Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from /Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from /Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/AndroidManifest.xml:6:22-64
+application
+ADDED from /Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/AndroidManifest.xml:8:5-41:19
+MERGED from [org.tensorflow:tensorflow-android:1.8.0] /Users/kamilsaitov/.android/build-cache/735456f4bd6c74569615ab92a13d0d83d5672473/output/AndroidManifest.xml:5:5-6:19
+MERGED from [com.github.jrvansuita:PickImage:2.2.3] /Users/kamilsaitov/.android/build-cache/e88216b600b18ab01dfa293861729996d2055ef4/output/AndroidManifest.xml:18:5-31:19
+MERGED from [com.android.support:cardview-v7:25.2.0] /Users/kamilsaitov/.android/build-cache/29598d05c703f0b5e9204950da43d90d284f370a/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:25.3.1] /Users/kamilsaitov/.android/build-cache/e7dfba785f5d9e24496f78d29a8822b6942e2ddd/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.1] /Users/kamilsaitov/.android/build-cache/32cbd7a165e70295a6e9cd3476dafb1f188190f3/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/kamilsaitov/.android/build-cache/f2b3b877eff79e0deb12bc33b6b977e24cf9cb36/output/AndroidManifest.xml:9:5-20
+MERGED from [com.github.HotBitmapGG:RingProgressBar:V1.2.2] /Users/kamilsaitov/.android/build-cache/dbb8143ea14d00c045d4dde5a13e0b1f6856811f/output/AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/kamilsaitov/.android/build-cache/8818a33801b43e1a8cf067c1d39ec62fdcb6735f/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /Users/kamilsaitov/.android/build-cache/3f373bbd8840781767e20a41566188c069b93731/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/kamilsaitov/.android/build-cache/2406bfc6a7b75cee9164f4deb9d803751ce64da5/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/kamilsaitov/.android/build-cache/09b87cec81f050665945b8c7cebbde2490946a8d/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/kamilsaitov/.android/build-cache/b61d5e9bb5066e319414c79da0668eda73a6b491/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/kamilsaitov/.android/build-cache/a84cb1e56f45780f50d7d14447936243b23346dd/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/kamilsaitov/.android/build-cache/86ee01632b02625e40cfd2ed0620a4f966d941d0/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/kamilsaitov/.android/build-cache/160d47524dd576b3b2a2a951f49d211e3fe6ba9a/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /Users/kamilsaitov/.android/build-cache/f031084c13ac70ea366343041695de821ac984e4/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.volley:volley:1.1.0] /Users/kamilsaitov/.android/build-cache/70d9ba45a2ece8d377dce424c936e967ffbbc48b/output/AndroidManifest.xml:9:5-20
+	android:screenOrientation
+		ADDED from [com.github.jrvansuita:PickImage:2.2.3] /Users/kamilsaitov/.android/build-cache/e88216b600b18ab01dfa293861729996d2055ef4/output/AndroidManifest.xml:21:9-45
+	android:label
+		ADDED from /Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/AndroidManifest.xml:11:9-46
+		REJECTED from [com.github.jrvansuita:PickImage:2.2.3] /Users/kamilsaitov/.android/build-cache/e88216b600b18ab01dfa293861729996d2055ef4/output/AndroidManifest.xml:20:9-41
+		REJECTED from [com.github.HotBitmapGG:RingProgressBar:V1.2.2] /Users/kamilsaitov/.android/build-cache/dbb8143ea14d00c045d4dde5a13e0b1f6856811f/output/AndroidManifest.xml:13:9-41
+	android:supportsRtl
+		ADDED from /Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/AndroidManifest.xml:13:9-35
+	android:roundIcon
+		ADDED from /Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/AndroidManifest.xml:12:9-54
+	android:configChanges
+		ADDED from [com.github.jrvansuita:PickImage:2.2.3] /Users/kamilsaitov/.android/build-cache/e88216b600b18ab01dfa293861729996d2055ef4/output/AndroidManifest.xml:19:9-44
+	android:allowBackup
+		ADDED from /Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/AndroidManifest.xml:9:9-35
+	android:icon
+		ADDED from /Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/AndroidManifest.xml:10:9-41
+	android:theme
+		ADDED from /Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/AndroidManifest.xml:14:9-40
+	tools:replace
+		ADDED from /Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/AndroidManifest.xml:15:9-38
+activity#kamilsaitov.LymeDetector.LaunchActivity
+ADDED from /Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/AndroidManifest.xml:16:9-24:20
+	android:screenOrientation
+		ADDED from /Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/AndroidManifest.xml:18:13-49
+	android:name
+		ADDED from /Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/AndroidManifest.xml:17:13-43
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/AndroidManifest.xml:19:13-23:29
+action#android.intent.action.MAIN
+ADDED from /Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from /Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from /Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/AndroidManifest.xml:22:27-74
+provider#android.support.v4.content.FileProvider
+ADDED from /Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/AndroidManifest.xml:26:9-35:20
+MERGED from [com.github.jrvansuita:PickImage:2.2.3] /Users/kamilsaitov/.android/build-cache/e88216b600b18ab01dfa293861729996d2055ef4/output/AndroidManifest.xml:22:9-30:20
+	android:authorities
+		ADDED from /Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/AndroidManifest.xml:28:13-83
+		INJECTED from /Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/AndroidManifest.xml
+		REJECTED from [com.github.jrvansuita:PickImage:2.2.3] /Users/kamilsaitov/.android/build-cache/e88216b600b18ab01dfa293861729996d2055ef4/output/AndroidManifest.xml:24:13-66
+	android:grantUriPermissions
+		ADDED from /Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/AndroidManifest.xml:30:13-47
+	android:exported
+		ADDED from /Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/AndroidManifest.xml:29:13-37
+	tools:replace
+		ADDED from /Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/AndroidManifest.xml:31:13-48
+	android:name
+		ADDED from /Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/AndroidManifest.xml:27:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/AndroidManifest.xml:32:13-34:65
+MERGED from [com.github.jrvansuita:PickImage:2.2.3] /Users/kamilsaitov/.android/build-cache/e88216b600b18ab01dfa293861729996d2055ef4/output/AndroidManifest.xml:27:13-29:65
+	android:resource
+		ADDED from /Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/AndroidManifest.xml:34:17-62
+	android:name
+		ADDED from /Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/AndroidManifest.xml:33:17-67
+activity#kamilsaitov.LymeDetector.ConfirmActivity
+ADDED from /Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/AndroidManifest.xml:37:9-53
+	android:name
+		ADDED from /Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/AndroidManifest.xml:37:19-50
+activity#kamilsaitov.LymeDetector.ProcessingActivity
+ADDED from /Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/AndroidManifest.xml:38:9-56
+	android:name
+		ADDED from /Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/AndroidManifest.xml:38:19-53
+activity#kamilsaitov.LymeDetector.ResultActivity
+ADDED from /Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/AndroidManifest.xml:39:9-52
+	android:name
+		ADDED from /Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/AndroidManifest.xml:39:19-49
+activity#kamilsaitov.LymeDetector.FailedConnectionActivity
+ADDED from /Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/AndroidManifest.xml:40:9-71
+	android:name
+		ADDED from /Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/AndroidManifest.xml:40:19-59
+uses-sdk
+INJECTED from /Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.github.jrvansuita:PickImage:2.2.3] /Users/kamilsaitov/.android/build-cache/e88216b600b18ab01dfa293861729996d2055ef4/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:cardview-v7:25.2.0] /Users/kamilsaitov/.android/build-cache/29598d05c703f0b5e9204950da43d90d284f370a/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:25.3.1] /Users/kamilsaitov/.android/build-cache/e7dfba785f5d9e24496f78d29a8822b6942e2ddd/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/kamilsaitov/.android/build-cache/e95e171367919ef285b9824e0f0d4c909d434257/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] /Users/kamilsaitov/.android/build-cache/32cbd7a165e70295a6e9cd3476dafb1f188190f3/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/kamilsaitov/.android/build-cache/f2b3b877eff79e0deb12bc33b6b977e24cf9cb36/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.HotBitmapGG:RingProgressBar:V1.2.2] /Users/kamilsaitov/.android/build-cache/dbb8143ea14d00c045d4dde5a13e0b1f6856811f/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/kamilsaitov/.android/build-cache/8818a33801b43e1a8cf067c1d39ec62fdcb6735f/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] /Users/kamilsaitov/.android/build-cache/3f373bbd8840781767e20a41566188c069b93731/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/kamilsaitov/.android/build-cache/2406bfc6a7b75cee9164f4deb9d803751ce64da5/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/kamilsaitov/.android/build-cache/09b87cec81f050665945b8c7cebbde2490946a8d/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/kamilsaitov/.android/build-cache/b61d5e9bb5066e319414c79da0668eda73a6b491/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/kamilsaitov/.android/build-cache/a84cb1e56f45780f50d7d14447936243b23346dd/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/kamilsaitov/.android/build-cache/86ee01632b02625e40cfd2ed0620a4f966d941d0/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/kamilsaitov/.android/build-cache/160d47524dd576b3b2a2a951f49d211e3fe6ba9a/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.1] /Users/kamilsaitov/.android/build-cache/f031084c13ac70ea366343041695de821ac984e4/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.volley:volley:1.1.0] /Users/kamilsaitov/.android/build-cache/70d9ba45a2ece8d377dce424c936e967ffbbc48b/output/AndroidManifest.xml:7:5-43
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] /Users/kamilsaitov/.android/build-cache/e7dfba785f5d9e24496f78d29a8822b6942e2ddd/output/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from /Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/AndroidManifest.xml:2:1-43:12 reason: tensorflow.contrib.android has a targetSdkVersion < 4
+MERGED from [com.github.jrvansuita:PickImage:2.2.3] /Users/kamilsaitov/.android/build-cache/e88216b600b18ab01dfa293861729996d2055ef4/output/AndroidManifest.xml:16:5-81
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/AndroidManifest.xml:2:1-43:12 reason: tensorflow.contrib.android has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/AndroidManifest.xml:2:1-43:12 reason: tensorflow.contrib.android requested WRITE_EXTERNAL_STORAGE
+uses-permission#android.permission.CAMERA
+ADDED from [com.github.jrvansuita:PickImage:2.2.3] /Users/kamilsaitov/.android/build-cache/e88216b600b18ab01dfa293861729996d2055ef4/output/AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from [com.github.jrvansuita:PickImage:2.2.3] /Users/kamilsaitov/.android/build-cache/e88216b600b18ab01dfa293861729996d2055ef4/output/AndroidManifest.xml:11:22-62
+uses-feature#android.hardware.camera
+ADDED from [com.github.jrvansuita:PickImage:2.2.3] /Users/kamilsaitov/.android/build-cache/e88216b600b18ab01dfa293861729996d2055ef4/output/AndroidManifest.xml:13:5-60
+	android:name
+		ADDED from [com.github.jrvansuita:PickImage:2.2.3] /Users/kamilsaitov/.android/build-cache/e88216b600b18ab01dfa293861729996d2055ef4/output/AndroidManifest.xml:13:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from [com.github.jrvansuita:PickImage:2.2.3] /Users/kamilsaitov/.android/build-cache/e88216b600b18ab01dfa293861729996d2055ef4/output/AndroidManifest.xml:14:5-70
+	android:name
+		ADDED from [com.github.jrvansuita:PickImage:2.2.3] /Users/kamilsaitov/.android/build-cache/e88216b600b18ab01dfa293861729996d2055ef4/output/AndroidManifest.xml:14:19-67
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] /Users/kamilsaitov/.android/build-cache/e7dfba785f5d9e24496f78d29a8822b6942e2ddd/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/kamilsaitov/.android/build-cache/e95e171367919ef285b9824e0f0d4c909d434257/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] /Users/kamilsaitov/.android/build-cache/32cbd7a165e70295a6e9cd3476dafb1f188190f3/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/kamilsaitov/.android/build-cache/8818a33801b43e1a8cf067c1d39ec62fdcb6735f/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] /Users/kamilsaitov/.android/build-cache/3f373bbd8840781767e20a41566188c069b93731/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/kamilsaitov/.android/build-cache/2406bfc6a7b75cee9164f4deb9d803751ce64da5/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/kamilsaitov/.android/build-cache/09b87cec81f050665945b8c7cebbde2490946a8d/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/kamilsaitov/.android/build-cache/b61d5e9bb5066e319414c79da0668eda73a6b491/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/kamilsaitov/.android/build-cache/a84cb1e56f45780f50d7d14447936243b23346dd/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/kamilsaitov/.android/build-cache/86ee01632b02625e40cfd2ed0620a4f966d941d0/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/kamilsaitov/.android/build-cache/160d47524dd576b3b2a2a951f49d211e3fe6ba9a/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] /Users/kamilsaitov/.android/build-cache/f031084c13ac70ea366343041695de821ac984e4/output/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] /Users/kamilsaitov/.android/build-cache/e7dfba785f5d9e24496f78d29a8822b6942e2ddd/output/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] /Users/kamilsaitov/.android/build-cache/e7dfba785f5d9e24496f78d29a8822b6942e2ddd/output/AndroidManifest.xml:26:9-47

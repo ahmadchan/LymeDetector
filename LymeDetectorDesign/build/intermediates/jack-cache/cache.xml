@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/kamilsaitov/Library/Android/sdk/platforms/android-25/optional/org.apache.http.legacy.jar"
+        revision="25.0.2"
+        sha1="5f0541a4298daa0590b22cfbde43f85e2a675545">
+        <dex dex="/Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/build/intermediates/transforms/preJackRuntimeLibraries/androidTest/debug/jars/8000/40/org.apache.http.legacy-c0383afb6016c87435259a9e66499ccebd2b0c2b.jar" />
+    </item>
+    <item
+        jar="/Users/kamilsaitov/Library/Android/sdk/platforms/android-25/android.jar"
+        revision="25.0.2"
+        sha1="712a0312fe844a21a1b3812fa960c363a1578984">
+        <dex dex="/Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/build/intermediates/transforms/preJackRuntimeLibraries/androidTest/debug/jars/8000/40/android-486ae62af0a2f8f1a91ebf3ea57e09571fd2b10a.jar" />
+    </item>
+
+</items>
