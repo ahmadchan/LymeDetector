@@ -8,7 +8,7 @@ Lyme Detector is a client-server application. To deploy it yourself there are tw
 * Install Tensorflow, Keras, Flask, flask-cors, numpy, pillow, imageio, matplotlib, python-tk  via pip or apt-get
 * Run `python app.py`
 ## Client part:
-* Download the Android Studio project
+* Download the Android Studio project (LymeDetectorDesign)
 * In ProcessingActivity.java include the IP adress or your server, port and "/predict"
 * Build an APK
 * Install on the smartphone
