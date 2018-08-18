@@ -1,0 +1,25 @@
+Metadata-Version: 2.0
+Name: Flask-CORSify
+Version: 0.1.1
+Summary: Add CORS support for your Flask app.
+Home-page: https://github.com/cllu/Flask-CORSify
+Author: Chunliang Lyu
+Author-email: hi@chunlianglyu.com
+License: BSD
+Platform: any
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: Flask
+
+Flask-CORSify
+------------
+
+This is a simple Flask extension that configures your Flask application to allow
+CORS from selected origins.
+
+

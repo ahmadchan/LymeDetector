@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/kamilsaitov/AndroidStudioProjects/A_Guide_to_Running_Tensorflow_Models_on_Android/mnistandroid/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d710c1c067722806c0857597840c4329505ff977">
+        <dex dex="/Users/kamilsaitov/AndroidStudioProjects/A_Guide_to_Running_Tensorflow_Models_on_Android/mnistandroid/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_64bbd78157cbe0d3fe3f729f0f670b5ad79b88d1/classes.dex" />
+    </item>
+
+</items>

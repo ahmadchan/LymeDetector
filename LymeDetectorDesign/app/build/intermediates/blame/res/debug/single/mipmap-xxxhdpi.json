@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/kamilsaitov/AndroidStudioProjects/mnistandroid/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/Users/kamilsaitov/AndroidStudioProjects/mnistandroid/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/kamilsaitov/AndroidStudioProjects/LymeDetector/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/Users/kamilsaitov/AndroidStudioProjects/LymeDetector/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/kamilsaitov/AndroidStudioProjects/LymeDetector/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher_round.png",
+        "source": "/Users/kamilsaitov/AndroidStudioProjects/LymeDetector/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher_round.png",
+        "source": "/Users/kamilsaitov/AndroidStudioProjects/LymeDetectorDesign/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/kamilsaitov/AndroidStudioProjects/A_Guide_to_Running_Tensorflow_Models_on_Android/mnistandroid/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher_round.png",
+        "source": "/Users/kamilsaitov/AndroidStudioProjects/A_Guide_to_Running_Tensorflow_Models_on_Android/mnistandroid/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/kamilsaitov/LymeDetector/LymeDetector/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher_round.png",
+        "source": "/Users/kamilsaitov/LymeDetector/LymeDetector/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/kamilsaitov/AndroidStudioProjects/A_Guide_to_Running_Tensorflow_Models_on_Android/mnistandroid/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/Users/kamilsaitov/AndroidStudioProjects/A_Guide_to_Running_Tensorflow_Models_on_Android/mnistandroid/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/kamilsaitov/LymeDetector/LymeDetector/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/Users/kamilsaitov/LymeDetector/LymeDetector/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/kamilsaitov/AndroidStudioProjects/mnistandroid/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher_round.png",
+        "source": "/Users/kamilsaitov/AndroidStudioProjects/mnistandroid/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    }
+]
