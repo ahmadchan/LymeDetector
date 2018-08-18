@@ -15,6 +15,9 @@ import com.vansuita.pickimage.bundle.PickSetup;
 import com.vansuita.pickimage.dialog.PickImageDialog;
 import com.vansuita.pickimage.listeners.IPickResult;
 
+/**
+ * MainActivity of the app. Opens on launch. Basically it's an introduction screen with only one button (which launches image picker).
+ */
 public class LaunchActivity extends AppCompatActivity implements IPickResult {
 
     Button chooseImage;
@@ -31,8 +34,8 @@ public class LaunchActivity extends AppCompatActivity implements IPickResult {
         chooseImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                PickImageDialog.build(new PickSetup()).show(LaunchActivity.this);
-            }
+                PickImageDialog.build(new PickSetup()).show(LaunchActivity.this); // rises the image picker, which allows to choose whether to use the image
+            }                                                                        // from gallery or take a photo.
         });
     }
 
@@ -48,6 +51,9 @@ public class LaunchActivity extends AppCompatActivity implements IPickResult {
         }
     }
 
+    /**
+     * Goes to the next activity
+     */
     void goToConfirmActivity(){
         Intent i = new Intent(this, ConfirmActivity.class);
         i.putExtra("imagePath", uri.toString());

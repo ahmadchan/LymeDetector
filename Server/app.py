@@ -30,7 +30,7 @@ def get_model():  # Loading Tensorflow model
     print("Model loaded!")
 
 
-def preprocess_image(image, target_size):  # Preprocessing the image (correct dimensions, turn into a tensor
+def preprocess_image(image, target_size):  # Preprocessing the image (correct dimensions, turn into a tensor)
     if image.mode != 'RGB':
         image = image.convert("RGB")
     image = image.resize(target_size)

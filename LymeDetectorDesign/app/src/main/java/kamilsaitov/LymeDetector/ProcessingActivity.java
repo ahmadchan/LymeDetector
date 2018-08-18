@@ -25,20 +25,30 @@ import java.net.URL;
 
 import io.netopen.hotbitmapgg.library.view.RingProgressBar;
 
+/**
+ * The main class for the app. It does 90% of the job:
+ * fetches the image from the previous activity;
+ * converts to Base64 and then to JSON format;
+ * sends the JSON to the server;
+ * receives a JSON, decodes it into the prediction string;
+ * sends the result to the next activity;
+ * shows the progress;
+ */
 public class ProcessingActivity extends AppCompatActivity {
 
-    final int PIXEL_WIDTH = 600;
+    final int PIXEL_WIDTH = 600; // image size of the neural network (used to convert the image to that resolution)
+    final String URL_ADDRESS = "http://138.68.81.220:5000/predict"; // change this when you deploy the app to your server. Do not change the "/predict".
 
     Uri uri;
-    int progress = 0;
+    int progress = 0; // variable to show the progress.
 
-    String result;
+    String result; // here will be the result which will be passed to the resultActivity. Only use this in the sendPost thread or will be unstable (because of parallelism)
 
-    final String URL_ADDRESS = "http://138.68.81.220:5000/predict";
 
-    TextView testTextView;
+    TextView testTextView; // to show the progress stage in the center of the progress ring.
 
     RingProgressBar ringProgressBar;
+    // the handler receives signals from the main thread and shows the stages of the progress as it happens.
     Handler handler = new Handler() {
 
         @Override
@@ -81,6 +91,7 @@ public class ProcessingActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_processing);
 
+        // get the image from the previous activity
         Intent intent = getIntent();
         String finalImage = intent.getStringExtra("finalImage");
         uri = Uri.parse(finalImage);
@@ -91,6 +102,7 @@ public class ProcessingActivity extends AppCompatActivity {
 
         ringProgressBar = (RingProgressBar) findViewById(R.id.progress_bar);
 
+        // show a toast when the process is complete
         ringProgressBar.setOnProgressListener(new RingProgressBar.OnProgressListener() {
             @Override
             public void progressToComplete() {
@@ -99,16 +111,10 @@ public class ProcessingActivity extends AppCompatActivity {
         });
 
 
+        // launches the main method
         try {
             recognizeNew();
-            //testTextView.setText(result);
-            //if(result != null) {
-            //goToResultActivity();
             handler.sendEmptyMessage(4);
-//                    }
-//                    else{
-//                        throw new NullPointerException();
-//                    }
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -116,6 +122,10 @@ public class ProcessingActivity extends AppCompatActivity {
 
     }
 
+    /**
+     * Goes to the resultActivity if everything is okay.
+     * @param res - prediction float
+     */
     void goToResultActivity(float res) {
         Intent i = new Intent(this, ResultActivity.class);
         i.putExtra("classResult", res);
@@ -124,6 +134,9 @@ public class ProcessingActivity extends AppCompatActivity {
     }
 
 
+    /**
+     * if "back" is pressed, return to launchActivity.
+     */
     @Override
     public void onBackPressed() {
         super.onBackPressed();
@@ -133,23 +146,38 @@ public class ProcessingActivity extends AppCompatActivity {
     }
 
 
+    /**
+     * Converts to a scaled and optimized for the network resolution, encodes it into Base64,
+     * then calls next method sendPost().
+     * @throws IOException
+     * @throws InterruptedException
+     */
     void recognizeNew() throws IOException, InterruptedException {
         Bitmap bitmap = MediaStore.Images.Media.getBitmap(this.getContentResolver(), uri);
         bitmap = Bitmap.createScaledBitmap(bitmap, PIXEL_WIDTH, PIXEL_WIDTH, true);
         String encoded = encodeImage(bitmap);
 
         sendPost(encoded);
-
-
-        //return result; //change
     }
 
+    /**
+     * Opens a Http connection, sends the image to the server;
+     * gets the response - JSON with prediction;
+     * parses the JSON for the prediction float;
+     * sends the response to resultActivity;
+     * if the connection cannot be established, goes to failedConnectionActivity.
+     *
+     * @param jpeg - encoded Base64 image
+     * @throws InterruptedException
+     */
     public void sendPost(String jpeg) throws InterruptedException {
+        // Http connection must be opened in a separate thread in Android.
         Thread thread = new Thread(new Runnable() {
             @Override
             public void run() {
                 try {
-                    Log.i("In thread", "In thread");
+                    // open Http connection
+                    Log.i("Thread", "In thread");
                     handler.sendEmptyMessage(0);
                     URL url = new URL(URL_ADDRESS);
                     HttpURLConnection conn = (HttpURLConnection) url.openConnection();
@@ -160,14 +188,18 @@ public class ProcessingActivity extends AppCompatActivity {
                     conn.setDoInput(true);
 
                     handler.sendEmptyMessage(1);
+
+                    // put Base64 image into JSON
                     JSONObject jsonParam = new JSONObject();
                     jsonParam.put("image", jpeg);
 
+                    // send the JSON to server
                     Log.i("JSON", jsonParam.toString());
                     DataOutputStream os = new DataOutputStream(conn.getOutputStream());
                     //os.writeBytes(URLEncoder.encode(jsonParam.toString(), "UTF-8"));
                     os.writeBytes(jsonParam.toString());
 
+                    // close Http connection
                     os.flush();
                     os.close();
                     handler.sendEmptyMessage(2);
@@ -175,6 +207,7 @@ public class ProcessingActivity extends AppCompatActivity {
                     Log.i("STATUS", String.valueOf(conn.getResponseCode()));
                     Log.i("MSG", conn.getResponseMessage());
 
+                    // get the response
                     BufferedReader br = new BufferedReader(new InputStreamReader((conn.getInputStream())));
                     result = br.readLine();
 
@@ -182,6 +215,7 @@ public class ProcessingActivity extends AppCompatActivity {
 
                     handler.sendEmptyMessage(3);
                     runOnUiThread(new Runnable() {
+                        // parse the response JSON
                         @Override
                         public void run() {
                             result = result.substring(1, result.length() - 1);
@@ -193,6 +227,7 @@ public class ProcessingActivity extends AppCompatActivity {
                             }
                         }
                     });
+                // if unable to establish Http connection, handle
                 } catch (Exception e) {
                     goToFailedConnectionActivity();
                 }
@@ -202,7 +237,11 @@ public class ProcessingActivity extends AppCompatActivity {
         thread.start();
     }
 
-
+    /**
+     * Converts the bitmap image into Base64 format.
+     * @param thumbnail bitmap image
+     * @return encoded Base64 image
+     */
     public static String encodeImage(Bitmap thumbnail) {
         ByteArrayOutputStream baos = new ByteArrayOutputStream();
         thumbnail.compress(Bitmap.CompressFormat.JPEG, 100, baos);
@@ -211,6 +250,9 @@ public class ProcessingActivity extends AppCompatActivity {
         return imageEncoded;
     }
 
+    /**
+     * Goes to the connectionFailed activity if Http connection was not established successfully.
+     */
     void goToFailedConnectionActivity() {
         startActivity(new Intent(ProcessingActivity.this, FailedConnectionActivity.class));
     }

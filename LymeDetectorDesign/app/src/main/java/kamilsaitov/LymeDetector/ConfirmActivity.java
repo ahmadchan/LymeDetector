@@ -8,6 +8,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
+/**
+ * A simple activity which shows the picture chosen by user, confirms the choice and proceeds to the next activity.
+ */
 public class ConfirmActivity extends AppCompatActivity {
 
     Uri uri;
@@ -28,12 +31,17 @@ public class ConfirmActivity extends AppCompatActivity {
         });
 
         imageView = (ImageView) findViewById(R.id.imageView);
+
+        // get the picture from previous activity
         Intent intent = getIntent();
         String imagePath= intent.getStringExtra("imagePath");
         uri = Uri.parse(imagePath);
         imageView.setImageURI(uri);
     }
 
+    /**
+     * Goes to the next activity
+     */
     void goToProcessingActivity(){
         Intent i = new Intent(this, ProcessingActivity.class);
         i.putExtra("finalImage", uri.toString());
